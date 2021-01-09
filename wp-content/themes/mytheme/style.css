@@ -1,0 +1,170 @@
+/*
+Theme Name: MyTheme
+Theme URI: https://wordpress.org/themes/twentytwenty/
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Our default theme for 2020...
+Tags: blog, one-column, ...
+Version: 5.5
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: twentytwenty
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've
+learned with others.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+html {
+    margin-top: 0px !important;
+}
+
+
+/* section {
+    padding: 10px;
+} */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar.navbar-expand-md.navbar-light {
+    background-color: #FDFFFE !important;
+}
+
+.navbar.navbar-expand-md.navbar-light .container .navbar-toggler {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    outline: none;
+}
+
+
+/* #main-menu {
+    float: right;
+} */
+
+#main-menu ul {
+    width: 100%;
+}
+
+#main-menu ul li {
+    margin: 0 20px;
+}
+
+#main-menu ul li a {
+    font-weight: 700;
+    color: #424F7B;
+    transition: 0.3s;
+}
+
+#main-menu ul li a:hover {
+    color: #EF533A;
+}
+
+#main-menu #menu-item-8 ul {
+    background-color: #FDFFFE;
+}
+
+#main-menu ul li.astm-search-menu.is-menu.sliding.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+
+/*End main menu*/
+
+#footer {
+    padding: 30px;
+    background-color: #444444 !important;
+}
+
+#footer .footer-widget__title {
+    color: #ffffff;
+    font-size: 18pt;
+    font-weight: 700;
+    font-style: italic;
+    border-left: 3px solid #EF533A;
+}
+
+#footer .textwidget p {
+    color: #696969;
+}
+
+#footer .textwidget a {
+    text-decoration: none;
+    padding: 5px;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+#footer .textwidget a:hover {
+    color: #EF533A;
+}
+
+#footer .textwidget.custom-html-widget .menu-footer li {
+    list-style: none;
+    display: inline-block;
+    border: 1px solid #696969;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+#footer .textwidget.custom-html-widget .menu-footer li a {
+    color: #ffffff;
+    font-size: 18pt;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#footer .textwidget.custom-html-widget .menu-footer li:hover a {
+    color: #696969;
+}
+
+.text-right {
+    float: right;
+}
+
+.screen-reader-text {
+    display: none;
+}
+
+.navigation.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.pagination-news {
+    text-align: center;
+    margin: 20px;
+}
+
+.pagination-news a {
+    margin: 10px;
+}
+
+.wp-block-group__inner-container {
+    padding: 0px 30px;
+}
+
+@media(min-width: 991px) {
+    #main-menu ul li.astm-search-menu.is-menu.sliding.menu-item {
+        display: flex;
+        align-items: center;
+        margin-left: 42%;
+    }
+}

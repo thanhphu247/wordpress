@@ -1,0 +1,126 @@
+.banner-cate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+
+/* Style the list */
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    margin-top: 40px;
+    list-style: none;
+    background-color: #eee;
+}
+
+
+/* Display list items side by side */
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+
+/* Add a slash symbol (/) before/behind each list item */
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "-";
+}
+
+ul.breadcrumb ul.post-categories {
+    display: inline;
+}
+
+.banner-cate ul.breadcrumb ul.post-categories li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+/* Add a color to all links inside the list */
+
+ul.breadcrumb li a {
+    color: #424f7b;
+    text-decoration: none;
+}
+
+
+/* Add a color on mouse-over */
+
+ul.breadcrumb li a:hover {
+    color: #ef533a;
+    text-decoration: underline;
+}
+
+.banner-cate .title-banner-cate {
+    margin-left: 100px;
+}
+
+.banner-cate .title-banner-cate h1 a {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #424f7b;
+    padding: 20px;
+    border-left: 5px solid #ef533a;
+    text-decoration: none;
+}
+
+.banner-cate .title-banner-cate {
+    width: 40%;
+    margin: 0px 100px;
+}
+
+.banner-cate .img-banner-cate img {
+    width: 80%;
+}
+
+
+/*End banner*/
+
+.archive-post .container .col-12.col-lg-4.col-xl-3 .home-newpost--thumbnail a img {
+    width: 100%;
+    height: 100%;
+}
+
+.archive-post .container .col-12.col-lg-8.col-xl-9 ul.post-categories {
+    display: inline;
+}
+
+.archive-post .container .col-12.col-lg-8.col-xl-9 ul li {
+    list-style: none;
+    display: inline;
+}
+
+.archive-post .container .col-12.col-lg-8.col-xl-9 ul li a {
+    color: #EF533A;
+}
+
+.archive-post .container .row.home-newpost {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin: 15px 0px;
+    padding: 10px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.archive-post .container .row.home-newpost:hover {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #999999;
+}
+
+.archive-post .container .row.news {
+    display: flex;
+    justify-content: center;
+}
+
+.archive-post .container .col-12.col-lg-8.col-xl-9 .home-newpost--title a {
+    color: #000000;
+}

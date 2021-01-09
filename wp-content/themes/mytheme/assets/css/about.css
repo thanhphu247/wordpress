@@ -1,0 +1,211 @@
+.banner-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+/* Style the list */
+
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+
+/* Display list items side by side */
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+
+/* Add a slash symbol (/) before/behind each list item */
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "-\00a0";
+}
+
+
+/* Add a color to all links inside the list */
+
+ul.breadcrumb li a {
+    color: #424f7b;
+    text-decoration: none;
+}
+
+
+/* Add a color on mouse-over */
+
+ul.breadcrumb li a:hover {
+    color: #ef533a;
+    text-decoration: underline;
+}
+
+.banner-about .title-banner-about {
+    margin-left: 100px;
+}
+
+.banner-about .title-banner-about h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: #424f7b;
+    padding: 20px;
+    border-left: 5px solid #ef533a;
+}
+
+.banner-about .img-banner-about img {
+    width: 100%;
+}
+
+
+/*Content*/
+
+.our-company {
+    margin: 40px 0px;
+}
+
+.our-company .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.our-company .title-our-company,
+.our-company .what-we-do {
+    width: 45%;
+    margin: 20px;
+}
+
+.our-company .title-our-company h4 {
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    color: #424f7b;
+}
+
+.our-company .title-our-company .img-our-company img,
+.our-company .what-we-do .img-wwd img {
+    width: 100%;
+}
+
+.our-company .what-we-do .title-wwd h3 {
+    padding-top: 10px;
+}
+
+.our-company .what-we-do .content-wwd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.our-company .what-we-do .content-wwd .group-1 ul.box-1,
+.our-company .what-we-do .content-wwd .group-2 ul.box-2 {
+    list-style: none;
+}
+
+.our-company .what-we-do .content-wwd .group-1 ul.box-1 li i,
+.our-company .what-we-do .content-wwd .group-2 ul.box-2 li i {
+    color: #ef533a;
+}
+
+
+/*Our client*/
+
+.our-client {
+    margin: 40px 0px;
+}
+
+.slider--our--client {
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-slide {
+    margin: 10px;
+}
+
+.our-client .title-our-client h4 {
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+    color: #424f7b;
+}
+
+.our-client .container {
+    padding: 0px 50px;
+}
+
+.our-client .container .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-client .slider--our--client .content-box-slide {
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.our-client .slider--our--client .content-box-slide .text-box-slide {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.our-client .slider--our--client .content-box-slide img {
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+
+.our-client .slider--our--client .content-box-slide p {
+    font-size: 13pt;
+    font-weight: 300;
+}
+
+.our-client .slider--our--client .content-box-slide .customer {
+    width: 100%;
+    text-align: end;
+}
+
+.our-client .slider--our--client .content-box-slide .customer h6 {
+    font-weight: 300;
+    color: #ef533a;
+}
+
+.our-client .slider--our--client .slick-prev {
+    margin-right: 50px;
+}
+
+.our-client .slider--our--client .slick-next {
+    margin-left: 50px;
+}
+
+.our-client .slider--our--client button[type="button"] {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.our-client .slider--our--client .slick-prev i,
+.our-client .slider--our--client .slick-next i {
+    font-size: 30pt;
+}
